@@ -2,14 +2,14 @@
 Проект создан с использованием Qt Creator и Qt Designer. 
 При запуске программы открывается окно с краткой информацией, правилами и выбором режима: **Игрок vs Игрок** или **Игрок vs Computer**. 
 После подтверждения режима игры открывается окно с соответсвующим режимом игры. По заврешению игры открывается окно о выигрыше игрока или ничье.
-![Окно выбора режима игры](images/window_choise)
+![Окно выбора режима игры](images/window_choise.png)
 
 ## Игрок vs Игрок
 Вводятся имена игроков, выбирается, кто первый ходит, внизу показано состояние игры - ход текущего игрока.
-![Не активное окно Player vs Player](images/window_pvp_not_active)
-![Активное окно Player vs Player](images/window_pvp_active)
+![Не активное окно Player vs Player](images/window_pvp_not_active.png)
+![Активное окно Player vs Player](images/window_pvp_active.png)
 
 ## Игрок vs Computer
 Вводится имя игрока, выбирается, кто первый ходит, ход Computerа подтверждается соответствующей кнопки.
-![Не активное окно Player vs Computer](images/window_pvc_not_active)
-![Активное окно Player vs Computer](images/window_pvc_active)
+![Не активное окно Player vs Computer](images/window_pvc_not_active.png)
+![Активное окно Player vs Computer](images/window_pvc_active.png)
