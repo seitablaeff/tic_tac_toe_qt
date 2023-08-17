@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainwindow</class>
+ <widget class="QMainWindow" name="mainwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1106</width>
+    <height>592</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tictactoe_choose_mode</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Описание:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Крестики-нолики - классическая настольная игра для двух игроков, в которой они поочередно &lt;/p&gt;&lt;p&gt;ставят свои символы (крестик или нолик) на игровое поле размером 3x3 клетки.&lt;/p&gt;&lt;p&gt;Целью игры является выстроить три своих символа в ряд по горизонтали, вертикали или диагонали.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Правила:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Играют два игрока, один использует крестики (X), другой - нолики (O).&lt;/p&gt;&lt;p&gt;Игроки ходят поочередно, начиная с игрока, который использует крестики.&lt;/p&gt;&lt;p&gt;Цель игрока - выстроить три своих символа в ряд (горизонтально, вертикально или диагонально).&lt;/p&gt;&lt;p&gt;Игроки ставят свой символ на свободную клетку на игровом поле.&lt;/p&gt;&lt;p&gt;Игра продолжается до тех пор, пока один из игроков не выстроит три своих символа в ряд или все клетки на поле не будут заняты.&lt;/p&gt;&lt;p&gt;Если все клетки заняты, а ни один из игроков не выстроил три символа в ряд, игра заканчивается вничью.&lt;/p&gt;&lt;p&gt;Игрок, первый выстроивший три своих символа в ряд, объявляется победителем.&lt;/p&gt;&lt;p&gt;Приложение может предоставлять возможность начать новую игру после завершения текущей.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="text">
+           <string>Выбор режима игры:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QRadioButton" name="radio_pvp">
+            <property name="font">
+             <font>
+              <pointsize>13</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Игрок vs Игрок</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="radio_pvc">
+            <property name="font">
+             <font>
+              <pointsize>13</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Игрок vs Computer</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="button_confirm">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>100</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Подтвердить</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1106</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
